@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LandingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,19 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get("/testimonials", [LandingController::class, "testimonials"])->name(
+    "landing.testimonials",
+);
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get("/wishlist   ", [LandingController::class, "wishlist"])->name(
+    "landing.wishlist",
+);
+
+Route::get("/details/{slug}", [LandingController::class, "details"])->name(
+    "landing.details",
+);
+Route::resource("/", LandingController::class);
+
+Route::get("/featured", function () {
+    return view("landing.featured");
+})->name("landing.featured");
