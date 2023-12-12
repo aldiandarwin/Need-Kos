@@ -8,6 +8,8 @@ Welcome to NeedKos, a Laravel 10 project aimed at helping users easily find affo
 
 "Find Boarding Houses: Comfortable & Affordable"
 
+![Home Page](https://github.com/aldiandarwin/Need-Kos/assets/70283015/639eb1fd-b3dd-4182-95ab-db96038b5d93)
+
 ## Features
 
 **_Home_**
@@ -48,6 +50,12 @@ figma project: <https://www.figma.com/file/B8crqsupJoauew1cWp9eYg/NeedHome-Websi
 
 Utilizing Laravel's database functionality for storing and retrieving data.
 
+## Project Goals
+
+The primary goal of this project is to translate the high-fidelity design from Figma into a fully functional Laravel application. We will be implementing various concepts, including basic components, dynamic components, authentication, and blade looping.
+
+The end result will be a user-friendly platform that integrates seamlessly with a database to provide a comprehensive solution for finding affordable and comfortable boarding houses.
+
 ## credits
 
 Special thanks to BuildWithAngga.com for providing the invaluable Laravel 10 class for free.
@@ -56,4 +64,4 @@ Their educational resources have been instrumental in developing the skills and 
 
 We highly appreciate their commitment to making quality learning materials accessible to the community.
 
-For more information on their courses and resources, please visit <BuildWithAngga.com.>
+For more information on their courses and resources, please visit <https://BuildWithAngga.com>
